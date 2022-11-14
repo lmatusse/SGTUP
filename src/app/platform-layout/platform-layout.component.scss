@@ -1,0 +1,49 @@
+section {
+  display: grid;
+  grid-template-columns: 250px auto;
+  height: 100vh;
+
+  main {
+    padding-left: 30px;
+
+    .menu-header {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    button {
+      text-align: left;
+    }
+  }
+
+  .menu-list {
+    img {
+      width: 20px;
+      height: 22px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .relatorio {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    background-color: #fff;
+    height: 100%;
+  }
+}

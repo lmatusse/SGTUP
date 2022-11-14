@@ -1,0 +1,43 @@
+<section>
+  <div class="principal">
+    <div class="logo">
+      <div>
+        <img
+          src="../../../assets/img/bus-2027077_960_720 1.png"
+          alt=""
+          srcset=""
+        />
+        <h2>SDTUP</h2>
+      </div>
+    </div>
+    <div class="form">
+      <main class="into-section">
+        <form #form="ngForm">
+          <p>
+            <label for="">Endereço de e-mail</label><br />
+            <input
+              type="text"
+              name="username"
+              [(ngModel)]="user.username"
+              placeholder="insira o seu username"
+            />
+          </p>
+          <p>
+            <label for="">Sua senha</label><br />
+            <input
+              type="password"
+              name="password"
+              [(ngModel)]="user.password"
+              placeholder="insira a password"
+            />
+          </p>
+
+          <button class="primary-btn" (click)="login()">Entrar</button>
+        </form>
+        <p class="forget-password">
+          <a href="">Esqueceu a sua senha?</a><br />
+        </p>
+      </main>
+    </div>
+  </div>
+</section>
